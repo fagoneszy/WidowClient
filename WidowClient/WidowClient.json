@@ -1,0 +1,54 @@
+{
+    "id": "widowclient",
+    "mainClass": "Start",
+    "assets": "1.8",
+    "minimumLauncherVersion": 14,
+    "type": "release",
+    "libraries": [
+        {
+            "name": "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209",
+            "url": "https://libraries.minecraft.net/"
+        },
+        {
+            "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
+            "url": "https://libraries.minecraft.net/"
+        },
+        {
+            "name": "net.java.jinput:jinput:2.0.5",
+            "url": "https://libraries.minecraft.net/"
+        },
+        {
+            "name": "com.google.guava:guava:17.0",
+            "url": "https://libraries.minecraft.net/"
+        },
+        {
+            "name": "com.google.code.gson:gson:2.2.4",
+            "url": "https://libraries.minecraft.net/"
+        },
+        {
+            "name": "org.apache.commons:commons-lang3:3.3.2",
+            "url": "https://libraries.minecraft.net/"
+        },
+        {
+            "name": "commons-io:commons-io:2.4",
+            "url": "https://libraries.minecraft.net/"
+        },
+        {
+            "name": "org.apache.logging.log4j:log4j-api:2.0-beta9",
+            "url": "https://libraries.minecraft.net/"
+        },
+        {
+            "name": "com.mojang:authlib:1.5.21",
+            "url": "https://libraries.minecraft.net/"
+        },
+        {
+            "name": "io.netty:netty-all:4.0.23.Final",
+            "url": "https://libraries.minecraft.net/"
+        },
+        {
+            "name": "me.zero:alpine:1.5",
+            "url": "https://libraries.minecraft.net/"
+        }
+    ],
+    "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type}"
+}
